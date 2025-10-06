@@ -8,6 +8,7 @@ Ringo colorscheme for NeoVim
 
 ### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
+```lua
 {
   { "kosmosdevice/ringo.nvim" },
   {
