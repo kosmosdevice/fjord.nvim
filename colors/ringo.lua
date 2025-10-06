@@ -1,1 +1,1 @@
-require("ringo.ringo").load()
+require("init").load()
