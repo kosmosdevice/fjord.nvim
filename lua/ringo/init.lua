@@ -29,9 +29,9 @@ local function apply_term_colors(colors)
 end
 
 local function apply(opts)
-  local colors = require("ymir.palette")
+  local colors = require("ringo.palette")
   apply_term_colors(colors)
-  local groups = require("ymir.groups").setup()
+  local groups = require("ringo.groups").setup()
 
   -- apply transparents
   if opts.transparent then
