@@ -12,7 +12,7 @@ local colors = {
     grey = "#ede1b7",
 
     bright_red = "#de785f",
-    bright_orange = "#d86441",
+    bright_orange = "#d59b76",
     bright_green = "#6da631",
     bright_yellow = "#e4b467",
     bright_blue = "#b5cadf",
@@ -67,7 +67,7 @@ return {
     -- UI
     cursor = colors.bright_orange,
     visual = colors.blue,
-    search = colors.bright_magenta,
+    search = colors.grey,
     statusline = colors.grey,
     menu_bg = colors.black,
     menu_sel = colors.blue,
