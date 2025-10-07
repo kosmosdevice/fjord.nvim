@@ -30,7 +30,7 @@ return {
     comment = "#7d88a1",
 
     -- Syntax
-    keyword = "#413156",
+    keyword = "#957db5",
     Function = "#844d53",
     string = "#a54e3a",
     constant = "#819b3a",

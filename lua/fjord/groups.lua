@@ -253,8 +253,8 @@ M.setup = function()
         NeoTreeFileIcon = { fg = colors.blue },
         NeoTreeFileName = { fg = colors.bright_orange },
         NeoTreeFileNameOpened = { fg = colors.bright_orange, bold = true },
-        NeoTreeDirectoryName = { fg = colors.yellow, bold = true },
-        NeoTreeDirectoryIcon = { fg = colors.yellow },
+        NeoTreeDirectoryName = { fg = colors.bright_green, bold = true },
+        NeoTreeDirectoryIcon = { fg = colors.bright_green },
         NeoTreeFloatBorder = { fg = colors.grey },
         NeoTreeTitleBar = { fg = colors.fg, bg = colors.bg },
     }
