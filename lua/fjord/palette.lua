@@ -22,8 +22,8 @@ return {
     nontext = "#d2d6dc",
 
     -- element approach
-    bg = "#4d3b33",
-    fg = "#7a5e52",
+    bg = "#110b00",
+    fg = "#595b5a",
     cursorline = "#997566",
     selection = "#2e3c55",
     linenr = "#4a5a70",
