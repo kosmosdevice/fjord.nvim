@@ -21,6 +21,7 @@ return {
     gutter_fg = "#78808f",
     nontext = "#d2d6dc",
 
+    --[[
     -- element approach
     bg = "#110b00",
     fg = "#595b5a",
@@ -55,4 +56,5 @@ return {
     diag_warn = "#fab387",
     diag_info = "#89dceb",
     diag_hint = "#b4befe",
+    --]]
 }
