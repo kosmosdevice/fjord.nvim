@@ -3,7 +3,7 @@ return {
     -- color approach
     red = "#c23229",
     orange = "#ae562e",
-    green = "#90be6d",
+    green = "#38410c",
     yellow = "#c89554",
     blue = "#7597c5",
     magenta = "#5a6897",
@@ -11,12 +11,13 @@ return {
     black = "#060719",
     bright_red = "#d74c42",
     bright_orange = "#cf744a",
-    bright_green = "#afd095",
+    bright_green = "#828729",
     bright_yellow = "#d3ac78",
     bright_blue = "#93add2",
     bright_magenta = "#707da9",
     bright_cyan = "#ad8599",
     white = "#d6dcda",
+    grey = "#676445",
     gutter_fg = "#78808f",
     nontext = "#d2d6dc",
 
