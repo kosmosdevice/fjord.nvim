@@ -21,7 +21,6 @@ return {
     gutter_fg = "#78808f",
     nontext = "#d2d6dc",
 
-    --[[
     -- element approach
     bg = "#110b00",
     fg = "#595b5a",
@@ -31,15 +30,15 @@ return {
     comment = "#7d88a1",
 
     -- Syntax
-    keyword = "#f28fad",
-    Function = "#89b4fa",
-    string = "#f9e2af",
-    constant = "#cdd6f4",
-    type = "#cba6f7",
-    number = "#fab387",
-    boolean = "#f38ba8",
-    operator = "#94a3b8",
-    variable = "#e0def4",
+    keyword = "#413156",
+    Function = "#844d53",
+    string = "#a54e3a",
+    constant = "#819b3a",
+    type = "#997581",
+    number = "#985e5c",
+    boolean = "#5c6996",
+    operator = "#6f94c1",
+    variable = "#d3b06e",
 
     -- UI
     cursor = "#f5a97f",
@@ -56,5 +55,4 @@ return {
     diag_warn = "#fab387",
     diag_info = "#89dceb",
     diag_hint = "#b4befe",
-    --]]
 }
