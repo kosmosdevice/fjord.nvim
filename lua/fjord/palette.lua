@@ -1,26 +1,26 @@
 local colors = {
     -- base colors
-    red = "#a62d12",
-    orange = "#ae562e",
-    green = "#787a19",
-    yellow = "#b27b20",
+    red = "#f53d31",
+    orange = "#9c3e0b",
+    green = "#225920",
+    yellow = "#ddaf4f",
     blue = "#8fa6d6",
     magenta = "#707190",
     cyan = "#9ec3d9",
-    black = "#060719",
+    black = "#2b292c",
     white = "#d6dcda",
-    grey = "#676445",
+    grey = "#ede1b7",
 
     bright_red = "#de785f",
     bright_orange = "#d86441",
-    bright_green = "#998927",
+    bright_green = "#6da631",
     bright_yellow = "#e4b467",
     bright_blue = "#b5cadf",
     bright_magenta = "#8e93b3",
     bright_cyan = "#b5d1e3",
 
     bg = "#2e3336",
-    fg = "#494b46",
+    fg = "#8d9089",
 }
 
 return {
