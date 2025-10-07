@@ -49,7 +49,7 @@ return {
     bg = colors.bg,
     fg = colors.fg,
     cursorline = colors.bright_orange,
-    selection = colors.blue,
+    selection = colors.fg,
     linenr = colors.grey,
     comment = colors.bright_blue,
 
@@ -72,7 +72,7 @@ return {
     menu_bg = colors.black,
     menu_sel = colors.blue,
     fold = colors.grey,
-    split = colors.fg,
+    split = colors.bright_blue,
 
     -- Diagnostics
     diag_error = colors.bright_red,
