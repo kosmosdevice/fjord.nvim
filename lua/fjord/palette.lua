@@ -18,15 +18,36 @@ local colors = {
     bright_blue = "#b5cadf",
     bright_magenta = "#8e93b3",
     bright_cyan = "#b5d1e3",
+
+    bg = "#2e3336",
+    fg = "#494b46",
 }
 
 return {
-    -- expose all base colors
     colors = colors,
 
+    red = colors.red,
+    orange = colors.orange,
+    green = colors.green,
+    yellow = colors.yellow,
+    blue = colors.blue,
+    magenta = colors.magenta,
+    cyan = colors.cyan,
+    black = colors.black,
+    white = colors.white,
+    grey = colors.grey,
+
+    bright_red = colors.bright_red,
+    bright_orange = colors.bright_orange,
+    bright_green = colors.bright_green,
+    bright_yellow = colors.bright_yellow,
+    bright_blue = colors.bright_blue,
+    bright_magenta = colors.bright_magenta,
+    bright_cyan = colors.bright_cyan,
+
     -- element approach
-    bg = colors.black,
-    fg = colors.white,
+    bg = colors.bg,
+    fg = colors.fg,
     cursorline = colors.bright_orange,
     selection = colors.blue,
     linenr = colors.grey,
