@@ -1,6 +1,5 @@
-return {
-
-    -- color approach
+local colors = {
+    -- base colors
     red = "#a62d12",
     orange = "#ae562e",
     green = "#787a19",
@@ -9,6 +8,9 @@ return {
     magenta = "#707190",
     cyan = "#9ec3d9",
     black = "#060719",
+    white = "#d6dcda",
+    grey = "#676445",
+
     bright_red = "#de785f",
     bright_orange = "#d86441",
     bright_green = "#998927",
@@ -16,43 +18,44 @@ return {
     bright_blue = "#b5cadf",
     bright_magenta = "#8e93b3",
     bright_cyan = "#b5d1e3",
-    white = "#d6dcda",
-    grey = "#676445",
-    gutter_fg = "#78808f",
-    nontext = "#d2d6dc",
+}
+
+return {
+    -- expose all base colors
+    colors = colors,
 
     -- element approach
-    bg = "#110b00",
-    fg = "#595b5a",
-    cursorline = "#997566",
-    selection = "#2e3c55",
-    linenr = "#4a5a70",
-    comment = "#7d88a1",
+    bg = colors.black,
+    fg = colors.white,
+    cursorline = colors.bright_orange,
+    selection = colors.blue,
+    linenr = colors.grey,
+    comment = colors.bright_blue,
 
-    -- Syntax
-    keyword = "#957db5",
-    Function = "#844d53",
-    string = "#ca795c",
-    constant = "#819b3a",
-    type = "#997581",
-    number = "#985e5c",
-    boolean = "#5c6996",
-    operator = "#6f94c1",
-    variable = "#d3b06e",
+    -- syntax
+    keyword = colors.magenta,
+    Function = colors.red,
+    string = colors.orange,
+    constant = colors.green,
+    type = colors.bright_magenta,
+    number = colors.bright_red,
+    boolean = colors.bright_blue,
+    operator = colors.cyan,
+    variable = colors.yellow,
 
     -- UI
-    cursor = "#f5a97f",
-    visual = "#2e3c55",
-    search = "#f5c2e7",
-    statusline = "#1e293b",
-    menu_bg = "#1a2535",
-    menu_sel = "#3b4252",
-    fold = "#3e4a5a",
-    split = "#334155",
+    cursor = colors.bright_orange,
+    visual = colors.blue,
+    search = colors.bright_magenta,
+    statusline = colors.grey,
+    menu_bg = colors.black,
+    menu_sel = colors.blue,
+    fold = colors.grey,
+    split = colors.bright_blue,
 
     -- Diagnostics
-    diag_error = "#f38ba8",
-    diag_warn = "#fab387",
-    diag_info = "#89dceb",
-    diag_hint = "#b4befe",
+    diag_error = colors.bright_red,
+    diag_warn = colors.bright_yellow,
+    diag_info = colors.bright_cyan,
+    diag_hint = colors.bright_magenta,
 }
