@@ -1,8 +1,8 @@
 local colors = {
     -- base colors
     red = "#f53d31",
-    orange = "#9c3e0b",
-    green = "#225920",
+    orange = "#c57542",
+    green = "#406014",
     yellow = "#ddaf4f",
     blue = "#8fa6d6",
     magenta = "#707190",
