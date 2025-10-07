@@ -1,8 +1,8 @@
-# ringo.nvim
-Ringo colorscheme for NeoVim
+# fjord.nvim
+Fjord colorscheme for NeoVim
 
 ## Credits
-- Ringo is forked from [Ymir](https://github.com/Ronxvier/ymir.nvim)
+- Fjord is forked from [Ymir](https://github.com/Ronxvier/ymir.nvim)
 - Created using this [Guide](https://medium.com/@ronxvier/build-your-own-neovim-colorscheme-in-lua-3b01adf019e0)
 ## Installation
 
@@ -10,11 +10,11 @@ Ringo colorscheme for NeoVim
 
 ```lua
 {
-  { "kosmosdevice/ringo.nvim" },
+  { "kosmosdevice/fjord.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "ringo",
+      colorscheme = "fjord",
     },
   },
 }

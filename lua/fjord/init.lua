@@ -29,9 +29,9 @@ local function apply_term_colors(colors)
 end
 
 local function apply(opts)
-  local colors = require("ringo.palette")
+  local colors = require("fjord.palette")
   apply_term_colors(colors)
-  local groups = require("ringo.groups").setup()
+  local groups = require("fjord.groups").setup()
 
   -- apply transparents
   if opts.transparent then
@@ -57,7 +57,7 @@ end
 
 M.load = function()
   if vim.fn.has("nvim-0.7") ~= 1 then
-    vim.notify("ringo.nvim: you must use neovim 0.7 or higher")
+    vim.notify("fjord.nvim: you must use neovim 0.7 or higher")
     return
   end
 
@@ -72,7 +72,7 @@ M.load = function()
 
   vim.o.background = "dark"
   vim.o.termguicolors = true
-  vim.g.colors_name = "ringo"
+  vim.g.colors_name = "fjord"
 
   apply(M.opts)
 end

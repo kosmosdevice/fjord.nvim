@@ -1,4 +1,4 @@
-local colors = require("ringo.palette")
+local colors = require("fjord.palette")
 
 local normal = {
   a = { fg = colors.black, bg = colors.yellow, gui = "bold" },
