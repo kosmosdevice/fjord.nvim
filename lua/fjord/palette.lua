@@ -32,7 +32,7 @@ return {
     -- Syntax
     keyword = "#957db5",
     Function = "#844d53",
-    string = "#a54e3a",
+    string = "#ca795c",
     constant = "#819b3a",
     type = "#997581",
     number = "#985e5c",
