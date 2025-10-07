@@ -67,12 +67,12 @@ return {
     -- UI
     cursor = colors.bright_orange,
     visual = colors.blue,
-    search = colors.grey,
+    search = colors.bright_magenta,
     statusline = colors.grey,
     menu_bg = colors.black,
     menu_sel = colors.blue,
     fold = colors.grey,
-    split = colors.bright_blue,
+    split = colors.fg,
 
     -- Diagnostics
     diag_error = colors.bright_red,
