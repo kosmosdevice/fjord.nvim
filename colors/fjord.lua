@@ -1,1 +1,1 @@
-require("ringo").load()
+require("fjord").load()
