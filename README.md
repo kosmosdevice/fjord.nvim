@@ -6,8 +6,9 @@ Fjord colorscheme for NeoVim
 ## Installation
 
 ### Vim pack
-
+```lua
 vim.pack.add({ src = "https://github.com/kosmosdevice/fjord.nvim" })
+```
 
 ### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
